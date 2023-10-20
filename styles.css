@@ -253,7 +253,7 @@ body {
 }
 @media (min-width: 1024px) {
   .header-content {
-    padding: 110px 140px 60px 140px;
+    padding: 70px 140px 60px 140px;
     max-width: 60%;
     text-align: start;
   }
