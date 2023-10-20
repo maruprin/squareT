@@ -144,7 +144,7 @@ body {
   background-color: white;
   transition: all 0.3s;
 }
-.opened :first-child{
+.opened :first-child {
   transform: translateY(12px) rotate(45deg);
 }
 .opened :nth-child(2) {
