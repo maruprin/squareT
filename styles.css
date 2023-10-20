@@ -75,11 +75,6 @@ body {
   background-size: cover;
   height: 100dvh;
 }
-@media (min-width: 1024px) {
-  .header-section {
-    height: 100dvh;
-  }
-}
 
 /* ------- estilos del menú desktop ------- */
 
@@ -149,7 +144,14 @@ body {
   background-color: white;
   transition: all 0.3s;
 }
-.opened {
+.opened :first-child{
+  transform: translateY(12px) rotate(45deg);
+}
+.opened :nth-child(2) {
+  transform: translateX(-26px);
+}
+.opened :last-child {
+  transform: translateY(-12px) rotate(-45deg);
 }
 @media (min-width: 1024px) {
   .menu-icon {
@@ -261,7 +263,7 @@ body {
 .pre-title {
   font-weight: 200;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: px;
 }
 .title {
   font-size: 32;
@@ -284,7 +286,7 @@ body {
 .text {
   font-weight: 200;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .header-button {
   background-color: transparent;

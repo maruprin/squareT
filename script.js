@@ -5,3 +5,4 @@ btn_menu.addEventListener('click',()=>{
     menu_container.classList.toggle('active');
     btn_menu.classList.toggle('opened');
 })
+
