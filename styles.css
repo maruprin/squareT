@@ -179,10 +179,11 @@ body {
 }
 .links {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   text-align: center;
   letter-spacing: 0.1rem;
+  color: white;
+  flex-direction: column;
 }
 
 .menu-mobile a {
@@ -192,11 +193,6 @@ body {
   .menu-mobile {
     display: none;
   }
-}
-.links {
-  color: white;
-  display: flex;
-  flex-direction: column;
 }
 .item-mm {
   transition: all 0.2s ease-in;
